@@ -2,10 +2,10 @@
 
 class Database{
 
-		private $db_host = "localhost";  // Change as required
-		private $db_user = "root";       // Change as required
-		private $db_pass = "";   // Change as required
-		private $db_name = "shbs";   // Change as required
+		private $db_host = "assignment-2-db.ccfcwdiqmmlf.us-east-1.rds.amazonaws.com";  // Change as required
+		private $db_user = "admin";       // Change as required
+		private $db_pass = "assignment";   // Change as required
+		private $db_name = "assignment";   // Change as required
 
 		private $result = array(); // Any results from a query will be stored here
 		private $mysqli = ""; // This will be our mysqli object
